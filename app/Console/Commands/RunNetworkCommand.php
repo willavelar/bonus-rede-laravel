@@ -2,15 +2,9 @@
 
 namespace App\Console\Commands;
 
-use App\Network\BonusPoint\Users5Bonus5Point40;
-use App\Network\BonusPointCalculator;
 use App\Network\BonusPointFacade;
-use App\Network\User\UserNetwork;
-use App\Network\User\UserNetworkBonus;
-use App\Network\User\UserNetworkBuilder;
 use App\Network\User\UserRepository;
 use Illuminate\Console\Command;
-use Illuminate\Support\Facades\File;
 
 class RunNetworkCommand extends Command
 {

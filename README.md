@@ -34,7 +34,7 @@ php artisan run:network --value=150.26
 execute o seguintes comando na raiz do projeto
 
 ```
-composer update
+composer install
 ```
 
 execute o comando, alterando o 150.26 que é um valor exemplo
