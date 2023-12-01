@@ -1,0 +1,12 @@
+version: "3.7"
+
+services:
+    app:
+        container_name: bonus-rede-ws
+        build:
+            context: .
+            dockerfile: Dockerfile
+        restart: unless-stopped
+        working_dir: /var/www/
+        volumes:
+            - ./:/var/www
